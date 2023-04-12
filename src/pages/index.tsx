@@ -1,5 +1,6 @@
 import Head from "next/head";
 import HexConverter from "@/components/HexConverter";
+import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HexConverter />
+      <Footer />
     </div>
   );
 };
