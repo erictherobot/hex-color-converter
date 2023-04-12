@@ -65,15 +65,12 @@ const HexConverter = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1 className="text-2xl font-bold mb-4">
+      <h1 className="text-2xl font-bold mb-4 text-white">
         HEX to RGB, HSL, CMYK Converter{" "}
       </h1>
       <div className="w-full max-w-md">
         <div className="mt-4">
-          <label
-            htmlFor="hexCode"
-            className="block text-gray-700 font-bold mb-2"
-          >
+          <label htmlFor="hexCode" className="block text-white font-bold mb-2">
             HEX Code
           </label>
           <input
@@ -92,7 +89,7 @@ const HexConverter = () => {
         {rgb && (
           <div className="mt-4">
             <label
-              className="block text-gray-700 font-bold mb-2"
+              className="block text-white font-bold mb-2"
               tabIndex={0}
               aria-label="RGB color value label"
             >
@@ -112,7 +109,7 @@ const HexConverter = () => {
         {hsl && (
           <div className="mt-4">
             <label
-              className="block text-gray-700 font-bold mb-2"
+              className="block text-white font-bold mb-2"
               tabIndex={0}
               aria-label="HSL color value label"
             >
@@ -132,7 +129,7 @@ const HexConverter = () => {
         {/* {cmyk && (
           <div className="mt-4">
             <label
-              className="block text-gray-700 font-bold mb-2"
+              className="block text-white font-bold mb-2"
               tabIndex={0}
               aria-label="CMYK color value label"
             >
